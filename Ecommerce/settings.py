@@ -64,6 +64,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'store.views.categories', #모든 템플레잇에 store.views.categories  function을  쓸수 있다
             ],
         },
     },
