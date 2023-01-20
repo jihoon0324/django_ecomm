@@ -3,6 +3,12 @@ from django.db import models
 from django.urls import reverse
 
 # Create your models here.
+
+
+
+class ProductManager(models.Manager):
+    def get_queryset(self):
+        return super(ProductManager, self).get_queryset().filter(is_active=True)
 class Category(models.Model):
     name = models.CharField(max_length=255, db_index=True)
     # url에서 보내는 정보? 을 slug 라고 한다
@@ -30,12 +36,14 @@ class Product(models.Model):
     is_active = models.BooleanField(default=True)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
+    objects = models.Manager()
+    products = ProductManager() #  데이터베이스 모델을 커스텀 해서 activie true 인것들만 필터링 한것
 
     class Meta:
         verbose_name_plural = 'Products'
         ordering = ('-created',)
 
     def get_absolute_url(self):
-        return reverse('store:category_list', args=[self.slug])
+        return reverse('store:product_detail', args=[self.slug])
     def __str__(self):
         return self.title
