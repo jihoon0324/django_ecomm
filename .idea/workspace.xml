@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aa50973-477e-488d-97dd-7ca93cfade02" name="Changes" comment="add new app basket">
-      <change afterPath="$PROJECT_DIR$/basket/basket.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basket/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/store/basket/summary.html" afterDir="false" />
+    <list default="true" id="4aa50973-477e-488d-97dd-7ca93cfade02" name="Changes" comment="add basket url and temp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ecommerce/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/basket/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/basket.py" beforeDir="false" afterPath="$PROJECT_DIR$/basket/basket.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +100,7 @@
       <workItem from="1674093144649" duration="7601000" />
       <workItem from="1674151208088" duration="16482000" />
       <workItem from="1674244453352" duration="7403000" />
-      <workItem from="1674271693051" duration="2153000" />
+      <workItem from="1674271693051" duration="2895000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1674099786423</created>
@@ -164,7 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674268074229</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add basket url and temp">
+      <created>1674275891212</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674275891212</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add basket url and temp">
+      <created>1674275965321</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674275965321</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +195,7 @@
     <MESSAGE value="add category" />
     <MESSAGE value="refactored" />
     <MESSAGE value="add new app basket" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new app basket" />
+    <MESSAGE value="add basket url and temp" />
+    <option name="LAST_COMMIT_MESSAGE" value="add basket url and temp" />
   </component>
 </project>
