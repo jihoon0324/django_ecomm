@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aa50973-477e-488d-97dd-7ca93cfade02" name="Changes" comment="add category">
-      <change afterPath="$PROJECT_DIR$/store/context_processors.py" afterDir="false" />
+    <list default="true" id="4aa50973-477e-488d-97dd-7ca93cfade02" name="Changes" comment="refactored">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/store/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/store/products/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/products/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/store/products/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/products/single.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +38,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Workspace/Python/Clone_Code/djangoProject/FromYoutube/Ecommerce/media/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlite&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\Python\Clone_Code\djangoProject\FromYoutube\Ecommerce\media\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Workspace\Python\Clone_Code\djangoProject\FromYoutube\Ecommerce\store" />
       <recent name="C:\Workspace\Python\Clone_Code\djangoProject\FromYoutube\Ecommerce\templates\store" />
@@ -104,7 +103,7 @@
       <updated>1674093124039</updated>
       <workItem from="1674093144649" duration="7601000" />
       <workItem from="1674151208088" duration="16482000" />
-      <workItem from="1674244453352" duration="599000" />
+      <workItem from="1674244453352" duration="3848000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1674099786423</created>
@@ -134,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674186248656</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactored">
+      <created>1674245670981</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674245670981</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactored">
+      <created>1674245681568</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674245681568</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +168,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="add admin" />
     <MESSAGE value="add category" />
-    <option name="LAST_COMMIT_MESSAGE" value="add category" />
+    <MESSAGE value="refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored" />
   </component>
 </project>

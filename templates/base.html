@@ -6,57 +6,53 @@
     <title>Title</title>
 
     <!-- css static -->
-{#    <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}"/>#}
-{#    <link rel="stylesheet" type="text/css" href="{% static 'css/users/profile.css' %}"/>#}
+    {#    <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}"/>#}
+    {#    <link rel="stylesheet" type="text/css" href="{% static 'css/users/profile.css' %}"/>#}
     <!-- Bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-
-    <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
-
     <!--JQuery  -->
-    <script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 
 
 </head>
 <body>
 
 
-
-  <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-white border-bottom">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/">BookStore</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+<header>
+    <nav class="navbar navbar-expand-md navbar-light bg-white border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">BookStore</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Library
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="{% url "store:product_all" %}">All</a></li>
-                                {% for c in categories %}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Library
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="{% url "store:product_all" %}">All</a></li>
+                            {% for c in categories %}
                                 <li {% if category.slug == c.slug %}class="selected" {% endif %}>
-                                {#     c.name|title  c.name 이 apple 이면  title 에 의해 Apple 로 표현되어 진다    #}
+                                    {#     c.name|title  c.name 이 apple 이면  title 에 의해 Apple 로 표현되어 진다    #}
                                     <a class="dropdown-item" href="{{ c.get_absolute_url }}">{{ c.name|title }}</a>
                                 </li>
-                                {% endfor %}
-                            </ul>
-                        </li>
-                    </ul>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                </ul>
 
-                </div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
 <div class="row">
 
 
@@ -64,7 +60,6 @@
     {% endblock %}
 
 </div>
-
 
 
 <!-- JavaScript -->
