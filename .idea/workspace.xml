@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4aa50973-477e-488d-97dd-7ca93cfade02" name="Changes" comment="add  basket.py">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/basket/context_processors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/basket.py" beforeDir="false" afterPath="$PROJECT_DIR$/basket/basket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/basket/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/basket/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store/basket/summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/basket/summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store/products/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/products/single.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +108,12 @@
       <workItem from="1674093144649" duration="7601000" />
       <workItem from="1674151208088" duration="16482000" />
       <workItem from="1674244453352" duration="7403000" />
-      <workItem from="1674271693051" duration="3231000" />
+      <workItem from="1674271693051" duration="6560000" />
+      <workItem from="1674328445602" duration="1175000" />
+      <workItem from="1674329632533" duration="10849000" />
+      <workItem from="1674348810023" duration="40000" />
+      <workItem from="1674348858573" duration="152000" />
+      <workItem from="1674355109588" duration="5917000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1674099786423</created>
@@ -178,7 +192,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674276685410</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add  basket.py">
+      <created>1674276866508</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674276866508</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add  basket.py">
+      <created>1674276881281</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674276881281</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add  basket.py">
+      <created>1674277063010</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674277063010</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -66,6 +66,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 # 'store.views.categories', #모든 템플레잇에 store.views.categories  function을  쓸수 있다
                 'store.context_processors.categories',  # categories 펑션을 따로 파일을 만들어서 옮긴다 윗줄것을 .
+                'basket.context_processors.basket'
 
             ],
         },
