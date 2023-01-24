@@ -16,19 +16,19 @@ class Basket():
         """
         Adding and updating the users basket session data
         """
-        # product_id = str(product.id)
-        #
-        # if product_id in self.basket:
-        #     self.basket[product_id]['qty'] = qty
-        # else:
-        #     self.basket[product_id] = {'price': str(product.price), 'qty': int(qty)}
-        #
-        # self.save()
-
         product_id = product.id
-        if product_id not in self.basket:
+
+        if product_id in self.basket:
+            self.basket[product_id]['qty'] = qty
+        else:
             self.basket[product_id] = {'price': str(product.price), 'qty': int(qty)}
+
         self.save()
+        #
+        # product_id = product.id
+        # if product_id not in self.basket:
+        #     self.basket[product_id] = {'price': str(product.price), 'qty': int(qty)}
+        # self.save()
 
     def __iter__(self):
         """
@@ -64,7 +64,7 @@ class Basket():
     def delete(self ,productId):
 
         product_id= str(productId)
-        print(product_id)
+
         if product_id in self.basket:
             del self.basket[product_id]
 
